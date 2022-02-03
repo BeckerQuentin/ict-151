@@ -77,8 +77,8 @@
             <div class="form-group row">
                 <div class="col-sm-2"></div>
                     <div class="col-sm-5">
-                        <input  type="checkbox"  id="new_letter" name="new_letter" placeholder="saisissez votre mot de passe une seconde fois">
-                        <label for="new_letter" >
+                        <input  type="checkbox"  id="news_letter" name="news_letter" placeholder="saisissez votre mot de passe une seconde fois">
+                        <label for="news_letter" >
                             La formation d'informaticien m'intéresse
                         </label>
                     </div>
