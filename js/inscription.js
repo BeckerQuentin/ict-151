@@ -78,6 +78,12 @@ $(function (){
                 email_per:$("#email_per").val(),
                 password_per:$("#password").val(),
                 news_letter_per:news_letter
+            }, 
+            function result(data,status){
+                $("#alert .message").html(data.message.texte)
+                $("#alert").attr("class","alert");
+                $("#alert").addClass("alert-"+data.message.type);
+                $("#alert").css("display", "block");
             }
 
             )
